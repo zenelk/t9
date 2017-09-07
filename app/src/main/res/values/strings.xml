@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Zenel\'s Keyboard</string>
+    <string name="zenels_ime">Zenel\'s IME</string>
+    <string name="subtype_en_US">English (US)</string>
+    <string name="translation_service_name">ZenelT9TranslationService</string>
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    <string name="test_me">Test me!</string>
+</resources>

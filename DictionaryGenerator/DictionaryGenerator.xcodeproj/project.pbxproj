@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F388AB11CFAADAD00828A1B /* DGGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F388AB01CFAADAD00828A1B /* DGGenerator.m */; };
+		1F388AB41CFAB2AE00828A1B /* DGWordFrequencyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F388AB31CFAB2AE00828A1B /* DGWordFrequencyList.m */; };
+		1F3A56D31D90DFF1002946D7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3A56D21D90DFF1002946D7 /* libsqlite3.tbd */; };
+		1F4EEB751CFAA635000FB374 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EEB741CFAA635000FB374 /* AppDelegate.m */; };
+		1F4EEB781CFAA635000FB374 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EEB771CFAA635000FB374 /* main.m */; };
+		1F4EEB7B1CFAA635000FB374 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EEB7A1CFAA635000FB374 /* ViewController.m */; };
+		1F4EEB7D1CFAA635000FB374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4EEB7C1CFAA635000FB374 /* Assets.xcassets */; };
+		1F4EEB801CFAA635000FB374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4EEB7E1CFAA635000FB374 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F388AAF1CFAADAD00828A1B /* DGGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGGenerator.h; sourceTree = "<group>"; };
+		1F388AB01CFAADAD00828A1B /* DGGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGGenerator.m; sourceTree = "<group>"; };
+		1F388AB21CFAB2AE00828A1B /* DGWordFrequencyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGWordFrequencyList.h; sourceTree = "<group>"; };
+		1F388AB31CFAB2AE00828A1B /* DGWordFrequencyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGWordFrequencyList.m; sourceTree = "<group>"; };
+		1F3A56D21D90DFF1002946D7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1F4EEB701CFAA635000FB374 /* DictionaryGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictionaryGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4EEB731CFAA635000FB374 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F4EEB741CFAA635000FB374 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F4EEB771CFAA635000FB374 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F4EEB791CFAA635000FB374 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F4EEB7A1CFAA635000FB374 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F4EEB7C1CFAA635000FB374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F4EEB7F1CFAA635000FB374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F4EEB811CFAA635000FB374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4EEB6D1CFAA635000FB374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3A56D31D90DFF1002946D7 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4EEB671CFAA635000FB374 = {
+			isa = PBXGroup;
+			children = (
+				1F3A56D21D90DFF1002946D7 /* libsqlite3.tbd */,
+				1F4EEB721CFAA635000FB374 /* DictionaryGenerator */,
+				1F4EEB711CFAA635000FB374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F4EEB711CFAA635000FB374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F4EEB701CFAA635000FB374 /* DictionaryGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F4EEB721CFAA635000FB374 /* DictionaryGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				1F4EEB731CFAA635000FB374 /* AppDelegate.h */,
+				1F4EEB741CFAA635000FB374 /* AppDelegate.m */,
+				1F4EEB791CFAA635000FB374 /* ViewController.h */,
+				1F4EEB7A1CFAA635000FB374 /* ViewController.m */,
+				1F4EEB7C1CFAA635000FB374 /* Assets.xcassets */,
+				1F4EEB7E1CFAA635000FB374 /* Main.storyboard */,
+				1F4EEB811CFAA635000FB374 /* Info.plist */,
+				1F4EEB761CFAA635000FB374 /* Supporting Files */,
+				1F388AAF1CFAADAD00828A1B /* DGGenerator.h */,
+				1F388AB01CFAADAD00828A1B /* DGGenerator.m */,
+				1F388AB21CFAB2AE00828A1B /* DGWordFrequencyList.h */,
+				1F388AB31CFAB2AE00828A1B /* DGWordFrequencyList.m */,
+			);
+			path = DictionaryGenerator;
+			sourceTree = "<group>";
+		};
+		1F4EEB761CFAA635000FB374 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F4EEB771CFAA635000FB374 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F4EEB6F1CFAA635000FB374 /* DictionaryGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4EEB8F1CFAA635000FB374 /* Build configuration list for PBXNativeTarget "DictionaryGenerator" */;
+			buildPhases = (
+				1F4EEB6C1CFAA635000FB374 /* Sources */,
+				1F4EEB6D1CFAA635000FB374 /* Frameworks */,
+				1F4EEB6E1CFAA635000FB374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DictionaryGenerator;
+			productName = DictionaryGenerator;
+			productReference = 1F4EEB701CFAA635000FB374 /* DictionaryGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F4EEB681CFAA635000FB374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zenelk;
+				TargetAttributes = {
+					1F4EEB6F1CFAA635000FB374 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F4EEB6B1CFAA635000FB374 /* Build configuration list for PBXProject "DictionaryGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F4EEB671CFAA635000FB374;
+			productRefGroup = 1F4EEB711CFAA635000FB374 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F4EEB6F1CFAA635000FB374 /* DictionaryGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F4EEB6E1CFAA635000FB374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4EEB7D1CFAA635000FB374 /* Assets.xcassets in Resources */,
+				1F4EEB801CFAA635000FB374 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F4EEB6C1CFAA635000FB374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4EEB7B1CFAA635000FB374 /* ViewController.m in Sources */,
+				1F4EEB781CFAA635000FB374 /* main.m in Sources */,
+				1F388AB11CFAADAD00828A1B /* DGGenerator.m in Sources */,
+				1F4EEB751CFAA635000FB374 /* AppDelegate.m in Sources */,
+				1F388AB41CFAB2AE00828A1B /* DGWordFrequencyList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F4EEB7E1CFAA635000FB374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4EEB7F1CFAA635000FB374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F4EEB8D1CFAA635000FB374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F4EEB8E1CFAA635000FB374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F4EEB901CFAA635000FB374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DictionaryGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenelk.DictionaryGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F4EEB911CFAA635000FB374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DictionaryGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zenelk.DictionaryGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F4EEB6B1CFAA635000FB374 /* Build configuration list for PBXProject "DictionaryGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4EEB8D1CFAA635000FB374 /* Debug */,
+				1F4EEB8E1CFAA635000FB374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4EEB8F1CFAA635000FB374 /* Build configuration list for PBXNativeTarget "DictionaryGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4EEB901CFAA635000FB374 /* Debug */,
+				1F4EEB911CFAA635000FB374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F4EEB681CFAA635000FB374 /* Project object */;
+}
